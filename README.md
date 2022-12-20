@@ -2,7 +2,11 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Naam deeltaak
+# Custom properties
+
+## Living style-guide 
+
+<img width="1761" alt="Screenshot 2022-12-18 at 22 20 48" src="https://user-images.githubusercontent.com/112861555/208668496-81b7d274-fc8c-44f4-91d6-780be14c6742.png">
 
 
 ## Licentie
