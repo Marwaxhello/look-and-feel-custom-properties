@@ -1,7 +1,25 @@
+:root {
+  --pinda: #72AFA6;
+  --white: #fff;
+  --grey: #f5f5f5;
+  --back1: #222;
+  --black2: #999;
+  --card: #D5EDEE;
+
+  --font: 'Montserrat', sans-serif;
+  --bold-font: bolder;
+
+  --font-size-h1: 65px;
+  --font-size-txt: 40px;
+}
+
+/*-- BODY --*/
+
 body {
   margin: 0 auto;
   min-height: 100vh;
   width: 100%;
+  
   /* padding: 1em; */
   gap: 0.5em;
   display: grid;
@@ -10,34 +28,32 @@ body {
   grid-template-areas:
   "nav main";
   overflow: clip;
-  
 }
 
 
 h1{
-  font-size: 48px;
+  font-size: var(--font-size-h1);
   line-height: 58px;
-  color:#fff;
-  font-weight: bolder;
+  color: var(--white);
+  font-weight: var(--bold-font);
   text-align: center;
   margin-top: 25%;
 }
 
 p{
- font-size: 40px;
- font-family: montserrat, sans-serif;
- color: #fff;
+ font-size: var(--font-size-txt);
+ font-family: var(--font);
+ color: var(--white);
  margin-top: .5em;
  margin-left: 10%;
  margin-right: 10%;
  padding-bottom: 20em;
  text-align: center;
- font-weight: bolder; 
+ font-weight: var(--bold-font); 
 }
 
-strong{
-  font-weight: bolder;
-}
+
+/*-- LANDINGPAGE --*/
 
 .Vini-Mini-img {
   background-image: url(https://cdn.shopify.com/s/files/1/0530/6718/6365/files/website_1504x992.jpg?v=1643311227);
@@ -51,34 +67,28 @@ strong{
   position: absolute;
   z-index: -1;
   inset: 0;
-  background-color: #72AFA6;
-  opacity: .5;
+  background-color: var(--pinda);
+  opacity: .4;
 }
 
-/* menu */
+/*-- MENU --*/
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: montserrat, sans-serif, Helvetica;
+  font-family: var(--font);
+
 } 
 
-:root {
-  --pinda: #72AFA6;
-  --white: #fff;
-  --grey: #f5f5f5;
-  --back1: #222;
-  --black2: #999;
-  --card: #D5EDEE;
-}  
+/*-- CONTAINER --*/
 
 .container {
   position: relative;
   width: 100%;
 }  
 
-/* navigation */
+/*-- NAVIGATION --*/
 
 .navigation {
   position: fixed;
@@ -156,7 +166,7 @@ strong{
   white-space: nowrap;
 } 
 
-/* curve outside */ 
+/*-- CURVE OUTSIDE --*/ 
 
 .navigation ul li:hover a::before,
 .navigation ul li.hovered a::before {
@@ -187,7 +197,7 @@ strong{
 } 
 
 
-/* main */ 
+/*-- MAIN --*/ 
 
 .main {
   position: absolute;
@@ -239,10 +249,12 @@ margin-left: 45em;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5em;
+  font-size: var(--font-size-h1);
   cursor: pointer;
  
 }
+
+/*-- MAKE RESPONSIVE --*/
 
 @media only screen and (max-width: 1190px) { 
 
