@@ -12,7 +12,8 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 Living Styleguide :
 
-Opdrachtgever Vini Mini 🥜
+### Opdrachtgever Vini Mini 🥜
+
 Opdracht doel: Een Living Styleguide maken voor je opdrachtgever.
 
 
